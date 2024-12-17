@@ -1,0 +1,17 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+:root {
+  --main-color: #458ff6;
+  --title-color: #000000;
+  --text-color: #7d7987;
+  --alt-text-color: #ffffff;
+  --h1-size: 48px;
+  --h2-size: 36px;
+  --h3-size: 24px;
+  --h4-size: 20px;
+  --text-size: 18px;
+}
+
