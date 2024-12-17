@@ -33,7 +33,7 @@ body {
   flex-wrap: wrap;
 }
 section {
-  padding: 60px;
+  margin: 10px;
 }
 .section-title {
   position: relative;
@@ -93,7 +93,7 @@ section {
 }
 @media (min-width: 768px) {
   .container {
-    width: 750px;
+    width: 700px;
   }
 }
 @media (min-width: 992px) {
@@ -182,10 +182,12 @@ header nav ul li a:hover {
     display: flex;
     gap: 20px;
   }
+  
+  
 }
 .hero .container,
 .about .container {
-  gap: 25px;
+  gap: 20px;
 }
 .hero .container .info h1 {
   font-size: 48px;
@@ -222,15 +224,16 @@ header nav ul li a:hover {
 }
 .about .container,
 .contact .container {
-  gap: 80px;
+  gap: 50px;
 }
 .about h2,
 .contact h2 {
   font-size: 36px;
   letter-spacing: 1.6;
-  margin-top: 20px;
+  margin-top: 15px;
 }
-.about a,
+
+.about a, 
 .contact a {
   display: block;
   margin-top: 20px;
